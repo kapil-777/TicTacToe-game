@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="logoTxt">TicTacToe</string>
+    <string name="description">Tic Tac Toe logo </string>
+    <string name="backdescription">this Button for back </string>
+    <string name="sharedescription">this Button for share </string>
+
+
+
+</resources>

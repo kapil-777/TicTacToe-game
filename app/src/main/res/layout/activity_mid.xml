@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MidActivity"
+    android:background="@drawable/main"
+    >
+<!--     <com.google.android.material.appbar.AppBarLayout-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:layout_gravity="top"-->
+<!--         android:background="#00111111">-->
+
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="#00111111"
+             >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+
+<!--                 <ImageButton-->
+<!--                     android:id="@+id/back"-->
+<!--                     android:layout_width="wrap_content"-->
+<!--                     android:layout_height="wrap_content"-->
+<!--                     android:src="@drawable/ic_back"-->
+<!--                   android:background="#00F8F5F5"-->
+<!--                     android:contentDescription="@string/backdescription"-->
+
+<!--                     />-->
+
+                 <ImageButton
+                     android:id="@+id/share"
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="center"
+                     android:background="#00F8F5F5"
+                     android:contentDescription="@string/sharedescription"
+
+                     android:src="@drawable/ic_share" />
+
+             </LinearLayout>
+
+         </androidx.appcompat.widget.Toolbar>
+
+
+<!--     </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/btnSp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="single player"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnDp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" Two players "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!--    <Button-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="click to home"-->
+        <!--        android:id="@+id/btnHome"-->
+        <!--        />-->
+
+
+    </LinearLayout>
+</LinearLayout>
